@@ -1,4 +1,4 @@
-coe.kikitux.github.com
+coe
 ======================
 
-coe.kikitux.net
+coe
