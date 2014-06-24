@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+
+        <title>Principles - coe.kikitux.net</title>
+
+        <link href="../css/bootstrap-3.0.3.min.css" rel="stylesheet">
+        <link href="../css/font-awesome-4.0.3.css" rel="stylesheet">
+        <link href="../css/prettify-1.0.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+
+        
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+            <!-- Main title -->
+            <a class="navbar-brand" href="..">coe.kikitux.net</a>
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+            <!-- Main navigation -->
+            <ul class="nav navbar-nav">
+            
+            
+                <li >
+                    <a href="..">Home</a>
+                </li>
+            
+            
+            
+                <li >
+                    <a href="../about/">About</a>
+                </li>
+            
+            
+            
+                <li class="active">
+                    <a href="./">Principles</a>
+                </li>
+            
+            
+            
+                <li >
+                    <a href="../scripts/">Scripts</a>
+                </li>
+            
+            
+            
+                <li >
+                    <a href="../syllabus/">Syllabus</a>
+                </li>
+            
+            
+            </ul>
+
+            <!-- Search, Navigation and Repo links -->
+            <ul class="nav navbar-nav navbar-right">
+                
+                <li >
+                    <a rel="next" href="../about/">
+                        <i class="fa fa-arrow-left"></i> Previous
+                    </a>
+                </li>
+                <li >
+                    <a rel="prev" href="../scripts/">
+                        Next <i class="fa fa-arrow-right"></i>
+                    </a>
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+</div>
+
+        <div class="container">
+            <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+    
+    </ul>
+</div></div>
+            <div class="col-md-9" role="main">
+
+<p>principles</p>
+<ul>
+<li>Patterns</li>
+</ul>
+<p>Based on Alexander .. patterns applied to our goal are the minimum reusable unit that deliver 1 output.</p>
+<p>The concept of pattern, will be different from the patterns applied to programming, or the pattern concept used in Object Oriented languages, is no the intention to create a new definition, we are using the concept straigth from the source.</p>
+<p>As an intructory example, when we write an script, an script can be lineal, however, if the same piece of code can be reused, we will create a funtion. Later, if we find a piece of code can be reused in a new script, we will import the funtion and use it, so having this in mind, our scripts will be written with this idea in mind from the very beggining.</p>
+<ul>
+<li>Idempotency</li>
+</ul>
+<p>Idempotency is ..., in our case, at different levels we will use the intention of idempotency as run once, skip if already there.</p>
+<p>This concept exits in IT with several names, like desired state, ,..</p>
+<ul>
+<li>12 factor app</li>
+</ul>
+<p>12 factor app came from ... based on all the expertise from helping people to build good quality applications, ready for the cloud.</p>
+<p>From here, we will use same ideas that will allow make our scripts reusables, either to be executed from the command line, or from other tool.</p>
+<p>As an example, we will use the concepts like do not include hardcoded information in the scripts (like user and password), or have the option to overwrite default information from the command line.</p>
+<ul>
+<li>Aligned to ITIL</li>
+</ul>
+<p>From the ITIL framework, we need to plan ahead that some of our work, may end being used for projects, and later into BAU/OPS, so we will document as much as possible, create templates for documentation, create templates for AsBuilts</p>
+<ul>
+<li>Recognize industry best practices over "just works"</li>
+</ul>
+<p>After prototyping some of the requiremt, we may recieve feedback from our end users (Projects, Ops) and in some cases, the way we are doing something, may not be better to they have.</p>
+<p>If our way of doit, is not better/quicker, or simply doesn't generate any value they won't use it.</p>
+<ul>
+<li>Chain of value</li>
+</ul>
+<p>In today's competitive world, end to end deployments are expensive.
+It cost money, time, resources in any combination of them.</p>
+<p>So when possible, we will review at atomic level for each task, what's the value of the task vs other options, and we will try to go for those that:</p>
+<ul>
+<li>Doestn't cost money</li>
+<li>Doesn't require more time or can be automatized</li>
+<li>
+<p>Add value</p>
+</li>
+<li>
+<p>Include the full cycle of IT</p>
+</li>
+</ul>
+<p>Some companys apply some areas of ITIL, for example on operations, others can use any of the several projects methodologies, or any of the developments metodologies.</p>
+<p>In order to keep this methodology-free, we will just enumerate the areas that are involved, and provide a minimum set of information required, as input from previuos areas, and outputs for documentation and/or next area.</p>
+<ul>
+<li>Open to include new technologies</li>
+<li>Open to incorporate trends from DEVops</li>
+<li>Must be reproducible, we will try to time 5 continuous deployment</li>
+</ul>
+</div>
+        </div>
+
+        
+
+        <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+        <script src="../js/bootstrap-3.0.3.min.js"></script>
+        <script src="../js/prettify-1.0.min.js"></script>
+        <script src="../js/base.js"></script>
+    </body>
+</html>
