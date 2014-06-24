@@ -1,0 +1,9 @@
+site_name: coe.kikitux.net
+pages:
+- [index.md, Home]
+- [about.md, About]
+- [principles.md, Principles]
+- [scripts.md, Scripts]
+- [syllabus.md, Syllabus]
+theme: bootstrap
+
