@@ -1,9 +1,19 @@
-site_name: coe.kikitux.net
+site_name: kikitux.net/coe
 pages:
 - [index.md, Home]
 - [about.md, About]
 - [principles.md, Principles]
-- [scripts.md, Scripts]
-- [syllabus.md, Syllabus]
+- [toolbox/syllabus.md, Toolbox]
+- [toolbox/scripts.md, Toolbox]
+- [provisioning/intro.md, Provisioning]
+- [provisioning/physical.md, Provisioning]
+- [provisioning/virtual.md, Provisioning]
+- [provisioning/os.md, Provisioning]
+- [provisioning/clusterware.md, Provisioning]
+- [provisioning/db.md, Provisioning]
+- [monitoring/intro.md, Monitoring]
+- [monitoring/os.md, Monitoring]
+- [monitoring/clusterware.md, Monitoring]
+- [monitoring/db.md, Monitoring]
 theme: bootstrap
 

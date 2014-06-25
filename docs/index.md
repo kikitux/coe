@@ -9,9 +9,9 @@ The software to be utilized on this series, will be mainly Oracle software, or o
 
 Starting in a 100% manual task, moving to the automation of the same.
 
-The following principles will be honored as much as possible:
+The following [principles](principles.md) will be honored as much as possible:
 
-- Patterns
+- [Patterns
 - Idempotency
 - 12 factor app
 - Aligned to ITIL
