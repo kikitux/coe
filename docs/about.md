@@ -1,7 +1,3 @@
-about
-
-lalalalalal
-
 #lallalala
 ##lelelelle
 ###lilililili
