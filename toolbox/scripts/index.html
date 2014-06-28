@@ -167,11 +167,31 @@
             <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
     
+        <li class="main active"><a href="#introduction">Introduction</a></li>
+        
+    
+        <li class="main "><a href="#bash">Bash</a></li>
+        
+            <li><a href="#verify-one-variable-is-set">Verify one variable is set</a></li>
+        
+            <li><a href="#verify-two-variables-are-set">Verify two variables are set</a></li>
+        
+    
     </ul>
 </div></div>
             <div class="col-md-9" role="main">
 
 <p>Scripts</p>
+<h1 id="introduction">Introduction</h1>
+<h1 id="bash">Bash</h1>
+<h2 id="verify-one-variable-is-set">Verify one variable is set</h2>
+<pre class="prettyprint well"><code>[ $var ] &amp;&amp; echo yes || echo no
+</code></pre>
+
+<h2 id="verify-two-variables-are-set">Verify two variables are set</h2>
+<pre class="prettyprint well"><code>[[ $var1 &amp;&amp; $var2 ]] &amp;&amp; echo yes || echo no
+</code></pre>
+
 </div>
         </div>
 
