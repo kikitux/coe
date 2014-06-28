@@ -73,10 +73,6 @@
                     <ul class="dropdown-menu">
                     
                         <li >
-                            <a href="../toolbox/syllabus/">Syllabus</a>
-                        </li>
-                    
-                        <li >
                             <a href="../toolbox/scripts/">Scripts</a>
                         </li>
                     
@@ -153,7 +149,7 @@
                     </a>
                 </li>
                 <li >
-                    <a rel="prev" href="../toolbox/syllabus/">
+                    <a rel="prev" href="../toolbox/scripts/">
                         Next <i class="fa fa-arrow-right"></i>
                     </a>
                 </li>
@@ -167,53 +163,56 @@
             <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
     
+        <li class="main active"><a href="#principles">Principles</a></li>
+        
+            <li><a href="#patterns">Patterns</a></li>
+        
+            <li><a href="#idempotency">Idempotency</a></li>
+        
+            <li><a href="#12-factor-app">12 factor app</a></li>
+        
+            <li><a href="#aligned-to-itil">Aligned to ITIL</a></li>
+        
+            <li><a href="#recognize-industry-best-practices-over-just-works">Recognize industry best practices over "just works"</a></li>
+        
+            <li><a href="#chain-of-value">Chain of value</a></li>
+        
+            <li><a href="#include-the-full-cycle-of-it">Include the full cycle of IT</a></li>
+        
+    
     </ul>
 </div></div>
             <div class="col-md-9" role="main">
 
-<p>principles</p>
-<ul>
-<li>Patterns</li>
-</ul>
+<h1 id="principles">Principles</h1>
+<p>There are a series of principles that I will be using on this series.</p>
+<p>We could say this principles are best practices. Most of them are just suggestion, so they are free, and add value to our task.</p>
+<h2 id="patterns">Patterns</h2>
 <p>Based on Alexander .. patterns applied to our goal are the minimum reusable unit that deliver 1 output.</p>
 <p>The concept of pattern, will be different from the patterns applied to programming, or the pattern concept used in Object Oriented languages, is no the intention to create a new definition, we are using the concept straigth from the source.</p>
 <p>As an intructory example, when we write an script, an script can be lineal, however, if the same piece of code can be reused, we will create a funtion. Later, if we find a piece of code can be reused in a new script, we will import the funtion and use it, so having this in mind, our scripts will be written with this idea in mind from the very beggining.</p>
-<ul>
-<li>Idempotency</li>
-</ul>
+<h2 id="idempotency">Idempotency</h2>
 <p>Idempotency is ..., in our case, at different levels we will use the intention of idempotency as run once, skip if already there.</p>
 <p>This concept exits in IT with several names, like desired state, ,..</p>
-<ul>
-<li>12 factor app</li>
-</ul>
+<h2 id="12-factor-app">12 factor app</h2>
 <p>12 factor app came from ... based on all the expertise from helping people to build good quality applications, ready for the cloud.</p>
 <p>From here, we will use same ideas that will allow make our scripts reusables, either to be executed from the command line, or from other tool.</p>
 <p>As an example, we will use the concepts like do not include hardcoded information in the scripts (like user and password), or have the option to overwrite default information from the command line.</p>
-<ul>
-<li>Aligned to ITIL</li>
-</ul>
+<h2 id="aligned-to-itil">Aligned to ITIL</h2>
 <p>From the ITIL framework, we need to plan ahead that some of our work, may end being used for projects, and later into BAU/OPS, so we will document as much as possible, create templates for documentation, create templates for AsBuilts</p>
-<ul>
-<li>Recognize industry best practices over "just works"</li>
-</ul>
+<h2 id="recognize-industry-best-practices-over-just-works">Recognize industry best practices over "just works"</h2>
 <p>After prototyping some of the requiremt, we may recieve feedback from our end users (Projects, Ops) and in some cases, the way we are doing something, may not be better to they have.</p>
 <p>If our way of doit, is not better/quicker, or simply doesn't generate any value they won't use it.</p>
-<ul>
-<li>Chain of value</li>
-</ul>
+<h2 id="chain-of-value">Chain of value</h2>
 <p>In today's competitive world, end to end deployments are expensive.
 It cost money, time, resources in any combination of them.</p>
 <p>So when possible, we will review at atomic level for each task, what's the value of the task vs other options, and we will try to go for those that:</p>
 <ul>
 <li>Doestn't cost money</li>
 <li>Doesn't require more time or can be automatized</li>
-<li>
-<p>Add value</p>
-</li>
-<li>
-<p>Include the full cycle of IT</p>
-</li>
+<li>Add value</li>
 </ul>
+<h2 id="include-the-full-cycle-of-it">Include the full cycle of IT</h2>
 <p>Some companys apply some areas of ITIL, for example on operations, others can use any of the several projects methodologies, or any of the developments metodologies.</p>
 <p>In order to keep this methodology-free, we will just enumerate the areas that are involved, and provide a minimum set of information required, as input from previuos areas, and outputs for documentation and/or next area.</p>
 <ul>
